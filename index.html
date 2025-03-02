@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <body>
+        <h1>Sistema de Turnos</h1>
+    <div>
+        <label for="dia">Selecciona el día: </label>
+        <select id="dia">
+            <option value="">Seleccione...</option>
+            <option value="martes">Martes</option>
+            <option value="miércoles">Miércoles</option>
+            <option value="jueves">Jueves</option>
+            <option value="viernes">Viernes</option>
+            <option value="sábado">Sábado</option>
+        </select>
+    </div>
+    <div>
+        <label for="hora">Selecciona la hora: </label>
+        <select id="hora">
+            <option value="">Seleccione una hora...</option>
+        </select>
+    </div>
+    <div>
+        <label for="nombre">Ingresa tu nombre: </label>
+        <input type="text" id="nombre" placeholder="Tu nombre">
+    </div>
+    <button id="registrar-turno">Registrar turno</button>
+    <div class="alerta" id="alerta"></div>
+
+    <div class="turno-lista">
+        <h2>Lista de Turnos:</h2>
+        <ul id="lista-turnos"></ul>
+    </div>
+    <script src="turnos.js"></script>
+</body>
+</html>
