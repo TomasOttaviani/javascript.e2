@@ -1,0 +1,32 @@
+{
+  "martes-08:00": {
+    "dia": "martes",
+    "hora": "08:00",
+    "nombre": "Ana López"
+  },
+  "martes-10:30": {
+    "dia": "martes",
+    "hora": "10:30",
+    "nombre": "Carlos Gómez"
+  },
+  "miércoles-09:00": {
+    "dia": "miércoles",
+    "hora": "09:00",
+    "nombre": "María Fernández"
+  },
+  "jueves-11:30": {
+    "dia": "jueves",
+    "hora": "11:30",
+    "nombre": "Lucía Pérez"
+  },
+  "viernes-13:00": {
+    "dia": "viernes",
+    "hora": "13:00",
+    "nombre": "Jorge Herrera"
+  },
+  "sábado-17:30": {
+    "dia": "sábado",
+    "hora": "17:30",
+    "nombre": "Valentina Ruiz"
+  }
+}
